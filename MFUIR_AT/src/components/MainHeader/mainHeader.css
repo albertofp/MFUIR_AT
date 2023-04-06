@@ -1,9 +1,18 @@
+* {
+	color: #fafbfd;
+	text-decoration: none;
+	font-weight: 500;
+    margin:0
+}
+
 .searchContainer {
 	display: flex;
 	align-items: center;
-	border: 1px solid green;
+	background: rgb(128, 128, 128);
+	height:5vmin;
 	margin: 0;
 }
+
 
 .searchInput {
 	display: flex;
@@ -13,26 +22,44 @@
 .user-icon {
 	display: flex;
 	margin-left: auto;
-	margin-right: 0;
+	margin-right: 2vmin;
 	width: 2em;
 	background: rgba(128, 128, 128, 0.522);
+	cursor: pointer;
 }
 
 input {
 	border: none;
-	background: rgba(128, 128, 128, 0.522);
+	background: rgba(128, 128, 128);
 	padding: 0.5em;
-	margin: 0;
 	width: 100%;
+}
+
+input:focus{
+	outline:none;
 }
 
 .header {
 	display: flex;
-	background-color: linear-gradient(to right, rgba(147, 98, 98, 0.417));
+	align-items: center;
+	background:url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+	background-position: center;
 	justify-content: space-between;
+	height:15vmin;
 }
 
-#user-greeting{
-    border:1px solid grey;
-    padding:1vmin;
+#user-greeting {
+	padding: 1vmin;
+	margin-left:10vmin;
+}
+
+.notifsContainer {
+	display: flex;
+	flex-direction: row;
+	gap: 1vmin;
+	padding: 1vmin;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-right:10vmin;
 }

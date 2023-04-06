@@ -1,5 +1,6 @@
 import React from 'react'
 import './mainHeader.css'
+import NotifItem from './NotifItem'
 
 function Header({ nomeUsuario }) {
 	return (
@@ -9,8 +10,20 @@ function Header({ nomeUsuario }) {
 				<h4>How are you today?</h4>
 			</div>
 
-			<div class='notifs-container'>
-				<h4>Test</h4>
+			<div className='notifsContainer'>
+				<NotifItem
+					type='events'
+					value='64'
+				/>
+				<NotifItem
+					type='messages'
+					value='30'
+				/>
+				<NotifItem
+					type='temp'
+					value='25'
+					location='Berlin'
+				/>
 			</div>
 		</div>
 	)
