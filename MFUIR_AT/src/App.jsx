@@ -1,10 +1,7 @@
 import './App.css'
+import MainHeader from './components/MainHeader/MainHeader'
 
 function App() {
-
-  return (
-    <h1>Hello world</h1>
-  )
+	return <MainHeader />
 }
-
 export default App

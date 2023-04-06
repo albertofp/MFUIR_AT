@@ -1,0 +1,14 @@
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'sidenav header header header header header header'
+		'sidenav header header header header header header'
+		'sidenav card-container card-container card-container card-container  card-container card-container'
+		'sidenav events events events recent recent recent '
+		'sidenav events events events recent recent recent '
+		'sidenav events events events graph graph graph '
+		'sidenav events events events graph graph graph '
+		'sidenav footer footer footer footer footer footer';
+	gap: 1.5vmin;
+	grid-template-columns: 10vmin, repeat(6, 1fr);
+}

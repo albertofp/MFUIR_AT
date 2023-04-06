@@ -1,0 +1,38 @@
+.searchContainer {
+	display: flex;
+	align-items: center;
+	border: 1px solid green;
+	margin: 0;
+}
+
+.searchInput {
+	display: flex;
+	margin: 0;
+}
+
+.user-icon {
+	display: flex;
+	margin-left: auto;
+	margin-right: 0;
+	width: 2em;
+	background: rgba(128, 128, 128, 0.522);
+}
+
+input {
+	border: none;
+	background: rgba(128, 128, 128, 0.522);
+	padding: 0.5em;
+	margin: 0;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	background-color: linear-gradient(to right, rgba(147, 98, 98, 0.417));
+	justify-content: space-between;
+}
+
+#user-greeting{
+    border:1px solid grey;
+    padding:1vmin;
+}
