@@ -25,6 +25,10 @@ nav {
 	grid-area: sidenav;
 }
 
+#card-container {
+	grid-area: card-container;
+}
+
 footer {
 	grid-area: footer;
 	background: rgb(187, 185, 185);
