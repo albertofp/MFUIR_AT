@@ -15,7 +15,7 @@ html{
 		'sidenav  card-container card-container  card-container card-container'
 		'sidenav  main-overview main-overview documents-container documents-container '
 		'sidenav  main-overview main-overview documents-container documents-container '
-		'sidenav  main-overview main-overview documents-container documents-container '
+		'sidenav  main-overview main-overview graph graph '
 		'sidenav  main-overview main-overview graph graph '
 		'sidenav  main-overview main-overview graph graph '
 		'sidenav  main-overview main-overview graph graph '
@@ -67,7 +67,7 @@ footer {
 		display:flex;
 		flex-direction:column;
 		gap:0;
-		overflow-y:scroll;
+		overflow:auto;
 	}
 
 	footer{
@@ -86,7 +86,7 @@ footer {
 	}
 
 	#documents-container{
-		
+		height:22.4dvh;
 	}
 
 	nav, #graph-container{

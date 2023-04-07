@@ -7,11 +7,9 @@
 
 .documentsContainer{
     display:flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-evenly;
-    gap:6vmin;
+    gap:2vmin;
     height:100%;
     width:100%;
-    padding:2vmin;
-    box-sizing: border-box;
 }
