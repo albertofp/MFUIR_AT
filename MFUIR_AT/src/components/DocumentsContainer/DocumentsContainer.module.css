@@ -1,15 +1,15 @@
-.mainContainer{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    height:100%;
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
-.documentsContainer{
-    display:flex;
-    align-items:center;
-    justify-content: space-evenly;
-    gap:2vmin;
-    height:100%;
-    width:100%;
+.documentsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 1vmin;
+	height: 100%;
+	width: 100%;
 }

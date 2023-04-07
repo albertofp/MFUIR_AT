@@ -1,9 +1,13 @@
 .mainContainer {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-evenly;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
 	gap: 2vmin;
-    height:auto;
-    background:linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531) );
+	height: auto;
+	background: linear-gradient(
+		to right,
+		rgba(5, 36, 208, 0.8),
+		rgba(5, 35, 208, 0.531)
+	);
 }

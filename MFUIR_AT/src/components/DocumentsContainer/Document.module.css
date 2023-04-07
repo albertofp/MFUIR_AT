@@ -6,11 +6,11 @@
 	align-items: center;
 	height: 50%;
 	width: 20%;
-    cursor:pointer;
-    box-shadow:1px 1px grey;
-    background:rgba(64, 64, 180, 0.779);
-    border-radius: 5px;
-	padding:0.5vmin
+	cursor: pointer;
+	box-shadow: 1px 1px grey;
+	background: rgba(64, 64, 180, 0.779);
+	border-radius: 5px;
+	padding: 0.5vmin;
 }
 
 .fileName {
@@ -18,23 +18,21 @@
 }
 
 .img {
-	width: 30%;
+	width: 50%;
 }
 
 .date {
 	font-size: x-small;
 }
 
-@media screen and (max-width:850px){
-
-		.img{
-			width:30%;
-		}
-
-
-		.document{
-			width:10%;
-			max-width:140px;
-			max-height:140x;
-		}
+@media screen and (max-width: 850px) {
+	.img {
+		width: 50%;
 	}
+
+	.document {
+		width: 20%;
+		max-width: 140px;
+		max-height: 140x;
+	}
+}
