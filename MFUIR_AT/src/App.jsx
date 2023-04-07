@@ -1,7 +1,7 @@
 import './App.css'
 import CardContainer from './components/CardContainer/CardContainer'
 import MainHeader from './components/MainHeader/MainHeader'
-import EventsContainer from './components/Recent/EventsContainer'
+import MainOverview from './components/MainOverview/MainOverview'
 import SideNav from './components/SideNav/SideNav'
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
 			<div id='card-container'>
 				<CardContainer />
 			</div>
-			<div id='events-container'>
-				<EventsContainer />
+			<div id='main-overview'>
+				<MainOverview />
 			</div>
 			<div id='recent-container'></div>
 			<div id='graph-container'></div>

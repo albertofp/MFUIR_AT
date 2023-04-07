@@ -9,14 +9,14 @@
 		'sidenav  header header header header'
 		'sidenav  header header header header'
 		'sidenav  card-container card-container  card-container card-container'
-		'sidenav  events events recent recent '
-		'sidenav  events events recent recent '
-		'sidenav  events events recent recent '
-		'sidenav  events events recent recent '
-		'sidenav  events events graph graph '
-		'sidenav  events events graph graph '
-		'sidenav  events events graph graph '
-		'sidenav  events events graph graph '
+		'sidenav  main-overview main-overview recent recent '
+		'sidenav  main-overview main-overview recent recent '
+		'sidenav  main-overview main-overview recent recent '
+		'sidenav  main-overview main-overview recent recent '
+		'sidenav  main-overview main-overview graph graph '
+		'sidenav  main-overview main-overview graph graph '
+		'sidenav  main-overview main-overview graph graph '
+		'sidenav  main-overview main-overview graph graph '
 		'sidenav  footer footer footer footer';
 	grid-template-columns: 20vmin repeat(4, 1fr);
 }
@@ -33,8 +33,8 @@ nav {
 	grid-area: card-container;
 }
 
-#events-container {
-	grid-area: events;
+#main-overview {
+	grid-area: main-overview;
 	background: grey;
 }
 
