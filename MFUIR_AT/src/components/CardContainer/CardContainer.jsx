@@ -9,6 +9,10 @@ function CardContainer() {
 		align-items:center;
 		background: linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531));
 		height:100%;
+		@media screen and (max-width:850px) {
+			overflow-x:scroll;
+			box-sizing:border-box;
+		}
 	`
 
 	return (

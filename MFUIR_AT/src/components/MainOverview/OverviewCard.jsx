@@ -31,7 +31,7 @@ function OverviewCard({ title, subtitle, subsubtitle, type, date }) {
 					<div className={styles.sideContainer}>
 						<div className={styles.date}>{date}</div>
 						<img
-							src={gift}
+							src={map}
 							className={styles.img}
 						></img>
 					</div>
@@ -49,7 +49,7 @@ function OverviewCard({ title, subtitle, subsubtitle, type, date }) {
 					<div className={styles.sideContainer}>
 						<div className={styles.date}>{date}</div>
 						<img
-							src={gift}
+							src={heart}
 							className={styles.img}
 						></img>
 					</div>
@@ -67,7 +67,7 @@ function OverviewCard({ title, subtitle, subsubtitle, type, date }) {
 					<div className={styles.sideContainer}>
 						<div className={styles.date}>{date}</div>
 						<img
-							src={gift}
+							src={book}
 							className={styles.img}
 						></img>
 					</div>

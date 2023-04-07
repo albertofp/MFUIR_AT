@@ -10,7 +10,12 @@ function SectionTitle({ title }) {
 		font-weight: bold;
 		padding: 1ch;
 		width: 100%;
-		box-sizing:border-box;
+		align-items: center;
+		box-sizing: border-box;
+		@media screen and (max-width: 850px) {
+			height: 4dvh;
+			padding: 0.5ch;
+		}
 	`
 
 	return <StyledHeader>{title}</StyledHeader>

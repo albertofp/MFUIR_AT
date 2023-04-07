@@ -61,3 +61,35 @@ nav {
 footer {
 	grid-area: footer;
 }
+
+@media screen and (max-width:850px) {
+	.grid-container{
+		display:flex;
+		flex-direction:column;
+		gap:0;
+		overflow-y:scroll;
+	}
+
+	footer{
+		position:fixed;
+		bottom:0;
+		width:100dvw;
+		height:3dvh;
+	}
+
+	header{
+		height:10dvh;
+	}
+
+	#card-container{
+		height:10dvh;
+	}
+
+	#documents-container{
+		
+	}
+
+	nav, #graph-container{
+		display:none
+	}
+}

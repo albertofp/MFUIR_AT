@@ -9,17 +9,31 @@ function Card({ title, subtitle, imgname }) {
 	const Card = styled.div`
 		display: flex;
 		justify-content: space-between;
-		background: linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531));
+		background: linear-gradient(
+			to right,
+			rgba(5, 36, 208, 0.8),
+			rgba(5, 35, 208, 0.531)
+		);
 		width: 20%;
-		padding: 2vmin;
+		padding: 1.5vmin;
 		border-radius: 5px;
 		cursor: pointer;
-		height:4vmin
+		height: 4vmin;
+		overflow: auto;
+		@media screen and (max-width: 850px) {
+			width: 8vmin;
+			height: 8vmin;
+			max-height: 30px;
+			max-width: 30px;
+		}
 	`
 
 	const Info = styled.div`
 		display: flex;
 		flex-direction: column;
+		@media screen and (max-width: 850px) {
+			display: none;
+		}
 	`
 
 	const TitleStyled = styled.h3`

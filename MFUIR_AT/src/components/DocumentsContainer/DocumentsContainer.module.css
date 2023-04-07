@@ -3,8 +3,6 @@
     justify-content: center;
     align-items:center;
     height:100%;
-    box-sizing:border-box;
-    padding:4vmin;
 }
 
 .documentsContainer{
@@ -14,4 +12,6 @@
     gap:6vmin;
     height:100%;
     width:100%;
+    padding:2vmin;
+    box-sizing: border-box;
 }

@@ -6,6 +6,10 @@
 	align-items: center;
 	height: 60%;
 	width: 20%;
+    cursor:pointer;
+    box-shadow:1px 1px grey;
+    background:rgba(64, 64, 180, 0.779);
+    border-radius: 5px;
 }
 
 .fileName {
@@ -13,7 +17,7 @@
 }
 
 .img {
-	height: 60%;
+	width: 60%;
 }
 
 .date {
