@@ -1,5 +1,8 @@
 import './App.css'
 import CardContainer from './components/CardContainer/CardContainer'
+import DocumentsContainer from './components/DocumentsContainer/DocumentsContainer'
+import Footer from './components/Footer/Footer'
+import MonthlySpending from './components/Graph/MonthlySpending'
 import MainHeader from './components/MainHeader/MainHeader'
 import MainOverview from './components/MainOverview/MainOverview'
 import SideNav from './components/SideNav/SideNav'
@@ -19,9 +22,15 @@ function App() {
 			<div id='main-overview'>
 				<MainOverview />
 			</div>
-			<div id='recent-container'></div>
-			<div id='graph-container'></div>
-			<footer>Footer</footer>
+			<div id='documents-container'>
+				<DocumentsContainer />
+			</div>
+			<div id='graph-container'>
+				<MonthlySpending />
+			</div>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	)
 }

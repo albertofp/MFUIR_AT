@@ -1,0 +1,21 @@
+.document {
+	display: flex;
+	gap: 1vmin;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60%;
+	width: 20%;
+}
+
+.fileName {
+	font-size: smaller;
+}
+
+.img {
+	height: 60%;
+}
+
+.date {
+	font-size: x-small;
+}
