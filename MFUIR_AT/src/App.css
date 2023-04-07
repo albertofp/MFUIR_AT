@@ -21,7 +21,7 @@ html{
 		'sidenav  main-overview main-overview graph graph '
 		'sidenav  footer footer footer footer';
 	grid-template-columns: 20vmin repeat(4, 1fr);
-	grid-gap: 0.2vmin;
+	grid-gap: 0.5vmin;
 }
 
 header {

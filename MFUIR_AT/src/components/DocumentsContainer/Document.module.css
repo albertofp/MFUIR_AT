@@ -10,6 +10,7 @@
     box-shadow:1px 1px grey;
     background:rgba(64, 64, 180, 0.779);
     border-radius: 5px;
+	padding:0.5vmin
 }
 
 .fileName {
@@ -17,7 +18,7 @@
 }
 
 .img {
-	width: 50%;
+	width: 30%;
 }
 
 .date {
