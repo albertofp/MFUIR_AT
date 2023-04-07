@@ -19,6 +19,7 @@
 		'sidenav  main-overview main-overview graph graph '
 		'sidenav  footer footer footer footer';
 	grid-template-columns: 20vmin repeat(4, 1fr);
+	grid-gap:0.2vmin;
 }
 
 header {
@@ -35,20 +36,19 @@ nav {
 
 #main-overview {
 	grid-area: main-overview;
-	background: grey;
 }
 
 #recent-container {
 	grid-area: recent;
-	background-color: blueviolet;
+	background: linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531));
 }
 
 #graph-container {
 	grid-area: graph;
-	background-color: aqua;
+	background: linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531));
 }
 
 footer {
 	grid-area: footer;
-	background: rgb(187, 185, 185);
+	background:linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531) );
 }

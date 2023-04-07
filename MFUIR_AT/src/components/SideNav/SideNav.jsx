@@ -6,7 +6,7 @@ function SideNav() {
 	const navBarStyle = {
 		display: 'flex',
 		flexDirection: 'column',
-		background: 'rgba(14, 40, 186, 0.8)',
+		background: '#1f3b68',
 		gap: '2vmin',
 		height: '100dvh'
 	}
@@ -15,7 +15,7 @@ function SideNav() {
 		display: 'flex',
 		justifyContent: 'space-around',
 		alignItems: 'center',
-		background: 'rgba(0, 0, 18, 0.23)',
+		background: 'rgba(97, 97, 197, 0.982)',
 		padding: '1vmin'
 	}
 

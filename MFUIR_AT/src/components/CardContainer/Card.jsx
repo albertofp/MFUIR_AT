@@ -9,7 +9,7 @@ function Card({ title, subtitle, imgname }) {
 	const Card = styled.div`
 		display: flex;
 		justify-content: space-between;
-		background: rgba(86, 102, 197);
+		background: linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531));
 		width: 20%;
 		padding: 2vmin;
 		border-radius: 5px;

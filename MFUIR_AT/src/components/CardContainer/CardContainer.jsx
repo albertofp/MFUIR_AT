@@ -7,7 +7,7 @@ function CardContainer() {
 		display: flex;
 		justify-content: space-around;
 		align-items:center;
-		background: rgba(5, 36, 208, 0.8);
+		background: linear-gradient(to right,rgba(5, 36, 208, 0.8),rgba(5, 35, 208, 0.531));
 		height:100%;
 	`
 

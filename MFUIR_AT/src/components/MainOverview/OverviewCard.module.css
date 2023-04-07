@@ -1,0 +1,30 @@
+.cardContainer {
+	display: flex;
+	justify-content: flex-start;
+	width: 80%;
+	padding: 1vmin;
+	gap: 1vmin;
+}
+
+.sideContainer {
+	display: flex;
+	align-items: center;
+    gap:0.4vmin;
+}
+
+.date {
+	font-size: smaller;
+}
+.img {
+	height: 2ch;
+}
+.title {
+	font-weight: bold;
+}
+.subtitle {
+	font-size: small;
+}
+
+.subsubtitle {
+	font-size: small;
+}
