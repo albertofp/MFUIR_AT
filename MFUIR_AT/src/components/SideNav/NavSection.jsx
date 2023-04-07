@@ -2,10 +2,11 @@ import React from 'react'
 import NavItem from './NavItem'
 
 function NavSection({ name, item1, item2, item3 }) {
-
-    const sectionStyle = {
-        fontSize:'.75 em'
-    }
+	const sectionStyle = {
+		fontSize: '.75 em',
+		cursor: 'pointer',
+		fontWeight: 600
+	}
 
 	return (
 		<div style={{ marginLeft: '1vmin' }}>

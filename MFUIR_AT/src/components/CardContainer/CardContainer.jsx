@@ -6,8 +6,9 @@ function CardContainer() {
 	const Container = styled.div`
 		display: flex;
 		justify-content: space-around;
-		padding: 2vmin;
+		align-items:center;
 		background: rgba(5, 36, 208, 0.8);
+		height:100%;
 	`
 
 	return (

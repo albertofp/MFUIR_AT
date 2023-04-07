@@ -2,17 +2,23 @@
 	color: #fafbfd;
 	text-decoration: none;
 	font-weight: 500;
-    margin:0
+	margin: 0;
+}
+
+#MainHeader {
+	display: flex;
+	flex-direction: column;
+	height:100%;
+
 }
 
 .searchContainer {
 	display: flex;
 	align-items: center;
 	background: rgb(128, 128, 128);
-	height:5vmin;
+	height: 5vmin;
 	margin: 0;
 }
-
 
 .searchInput {
 	display: flex;
@@ -35,23 +41,23 @@ input {
 	width: 100%;
 }
 
-input:focus{
-	outline:none;
+input:focus {
+	outline: none;
 }
 
 .header {
 	display: flex;
 	align-items: center;
-	background:url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
+	background: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
 	background-position: center;
 	justify-content: space-between;
-	height:15vmin;
+	height: 100%;
 }
 
 #user-greeting {
 	padding: 1vmin;
-	margin-left:10vmin;
+	margin-left: 10vmin;
 }
 
 .notifsContainer {
@@ -61,5 +67,5 @@ input:focus{
 	padding: 1vmin;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-right:10vmin;
+	margin-right: 10vmin;
 }

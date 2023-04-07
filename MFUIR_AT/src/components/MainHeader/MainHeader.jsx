@@ -5,10 +5,10 @@ import Searchbar from './Searchbar'
 
 function MainHeader() {
 	return (
-		<>
+		<div id='MainHeader'>
 			<Searchbar />
 			<Header nomeUsuario='Alberto' />
-		</>
+		</div>
 	)
 }
 

@@ -4,7 +4,9 @@ function NavItem({ text }) {
 	const itemStyle = {
 		display: 'flex',
 		justifyContent: 'space-between',
-		padding: '1vmin'
+		padding: '1vmin',
+		cursor: 'pointer',
+		fontWeight: 400
 	}
 
 	return (

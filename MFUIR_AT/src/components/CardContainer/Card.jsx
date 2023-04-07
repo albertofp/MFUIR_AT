@@ -13,6 +13,8 @@ function Card({ title, subtitle, imgname }) {
 		width: 20%;
 		padding: 2vmin;
 		border-radius: 5px;
+		cursor: pointer;
+		height:4vmin
 	`
 
 	const Info = styled.div`

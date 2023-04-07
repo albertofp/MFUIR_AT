@@ -9,10 +9,14 @@
 		'sidenav  header header header header'
 		'sidenav  header header header header'
 		'sidenav  card-container card-container  card-container card-container'
-		'sidenav  events recent recent recent '
-		'sidenav  events recent recent recent '
-		'sidenav  events graph graph graph '
-		'sidenav  events graph graph graph '
+		'sidenav  events events recent recent '
+		'sidenav  events events recent recent '
+		'sidenav  events events recent recent '
+		'sidenav  events events recent recent '
+		'sidenav  events events graph graph '
+		'sidenav  events events graph graph '
+		'sidenav  events events graph graph '
+		'sidenav  events events graph graph '
 		'sidenav  footer footer footer footer';
 	grid-template-columns: 20vmin repeat(4, 1fr);
 }
@@ -27,6 +31,21 @@ nav {
 
 #card-container {
 	grid-area: card-container;
+}
+
+#events-container {
+	grid-area: events;
+	background: grey;
+}
+
+#recent-container {
+	grid-area: recent;
+	background-color: blueviolet;
+}
+
+#graph-container {
+	grid-area: graph;
+	background-color: aqua;
 }
 
 footer {
