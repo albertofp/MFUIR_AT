@@ -11,6 +11,7 @@ function Footer() {
 		height: 100%;
 		padding: 2ch;
 		box-sizing: border-box;
+		border-top:1px solid rgba(5, 36, 208, 0.8);
 		background: linear-gradient(
 			to right,
 			rgba(5, 36, 208, 0.8),

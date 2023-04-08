@@ -3,8 +3,8 @@
 	font-size: medium;
 }
 
-html{
-	background:rgba(5, 35, 208, 0.301)
+html {
+	background: rgba(5, 35, 208, 0.301);
 }
 
 .grid-container {
@@ -62,34 +62,35 @@ footer {
 	grid-area: footer;
 }
 
-@media screen and (max-width:850px) {
-	.grid-container{
-		display:flex;
-		flex-direction:column;
-		gap:0;
-		overflow:auto;
+@media screen and (max-width: 850px) {
+	.grid-container {
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+		overflow: auto;
 	}
 
-	footer{
-		position:fixed;
-		bottom:0;
-		width:100dvw;
-		height:3dvh;
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100dvw;
+		height: 3dvh;
 	}
 
-	header{
-		height:10dvh;
+	header {
+		height: 13dvh;
 	}
 
-	#card-container{
-		height:10dvh;
+	#card-container {
+		height: 10dvh;
 	}
 
-	#documents-container{
-		height:22.4dvh;
+	#documents-container {
+		height: 22.4dvh;
 	}
 
-	nav, #graph-container{
-		display:none
+	nav,
+	#graph-container {
+		display: none;
 	}
 }
